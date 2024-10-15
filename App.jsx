@@ -5,13 +5,13 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import SignUp from "./Pages/SignupPage/SignUp";
+// import SignUp from "./Pages/SignupPage/SignUp";
 import LandingPage from "./Pages/LandingPage/LandingPage";
 import EmailVerification from "./Pages/EmailVerificationPage/EmailVerification";
 import Login from "./Pages/LoginPage/Login";
 import ForgotPassword from "./Pages/ForgotPasswordPage/ForgotPassword";
-import Profile from "./Pages/ProfilePage/Profile";
-import Services from "./Pages/ServicesPage/Services";
+// import Profile from "./Pages/ProfilePage/Profile";
+// import Services from "./Pages/ServicesPage/Services";
 import HowItWorks from "./Pages/HowItWorksPage/HowItWorks";
 import ArtisanDashboard from "./Pages/ArtisanDashboard/ArtisanDashboard";
 import Jobs from "./Pages/ArtisanJOBS/Jobs";
@@ -26,11 +26,11 @@ import ArtisanAboutProfile from "./Pages/ProfilePage/ArtisanProfile/ArtisanAbout
 import ArtisanSocialLinks from "./Pages/ProfilePage/ArtisanProfile/ArtisanSocialLinks";
 import ArtisanContacts from "./Pages/ProfilePage/ArtisanProfile/ArtisanContacts";
 import ClientContacts from "./Pages/ProfilePage/ClientProfile/ClientContacts";
-import ClientSocialLinks from "./Pages/ProfilePage/ClientProfile/ClientSocialLinks";
+// import ClientSocialLinks from "./Pages/ProfilePage/ClientProfile/ClientSocialLinks";
 import ClientAboutProfile from "./Pages/ProfilePage/ClientProfile/ClientAboutProfile";
 import ClientPortfolio from "./Pages/ProfilePage/ClientProfile/ClientPortfolio";
-import ClientWorkExperience from "./Pages/ProfilePage/ClientProfile/ClientWorkExperience";
-import ClientProfile from "./Pages/ProfilePage/ClientProfile/ClientProfile";
+// import ClientWorkExperience from "./Pages/ProfilePage/ClientProfile/ClientWorkExperience";
+// import ClientProfile from "./Pages/ProfilePage/ClientProfile/ClientProfile";
 import ClientDashboard from "./Pages/ClientDashboard/ClientDashboard";
 
 
@@ -43,10 +43,10 @@ const router = createBrowserRouter([
     element: <LandingPage/>,
   },
 
-  {
-    path: "/SignUp",
-    element: <SignUp/>,
-  },
+  // {
+  //   path: "/SignUp",
+  //   element: <SignUp/>,
+  // },
 
   {
     path: "/EmailVerification",
@@ -60,14 +60,14 @@ const router = createBrowserRouter([
     path: "/ForgotPassword",
     element: <ForgotPassword/>
   },
-  {
-    path: "/Profile",
-    element: <Profile/>
-  },
-  {
-    path: "/Services",
-    element: <Services/>
-  },
+  // {
+  //   path: "/Profile",
+  //   element: <Profile/>
+  // },
+  // {
+  //   path: "/Services",
+  //   element: <Services/>
+  // },
   {
     path: "/ArtisanDashboard",
     element: <ArtisanDashboard/>
@@ -128,14 +128,14 @@ const router = createBrowserRouter([
     path: "/ClientDashboard",
     element: <ClientDashboard/>
   },
-  {
-    path: "/clientProfile",
-    element: <ClientProfile/>
-  },
-  {
-    path: "/clientWorkExperience",
-    element: <ClientWorkExperience/>
-  },
+  // {
+  //   path: "/clientProfile",
+  //   element: <ClientProfile/>
+  // },
+  // {
+  //   path: "/clientWorkExperience",
+  //   element: <ClientWorkExperience/>
+  // },
   {
     path: "/clientPortfolio",
     element: <ClientPortfolio/>
@@ -144,10 +144,10 @@ const router = createBrowserRouter([
     path: "/clientAbout",
     element: <ClientAboutProfile/>
   },
-  {
-    path: "/clientSocials",
-    element: <ClientSocialLinks/>
-  },
+  // {
+  //   path: "/clientSocials",
+  //   element: <ClientSocialLinks/>
+  // },
   {
     path: "/ClientContacts",
     element: <ClientContacts/>
