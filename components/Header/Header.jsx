@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <>
-      <main className="headerCon flex b0 z-40 border bg-white fixed px-4 p-4 md:px-[5rem] shadow w-full justify-between items-center">
+      <main className="headerCon flex z-40 border bg-white fixed px-4 p-4 md:px-[5rem] shadow w-full justify-between items-center">
         <div className="logo" >
           <img
             src="https://res.cloudinary.com/dytlpvw1o/image/upload/v1720101531/Logo_mqhhsx.png"
@@ -19,7 +19,7 @@ const Header = () => {
           />
         </div>
 
-        <nav className="nav_links hidden lg:flex space-x-8 items-center text-[14px] font-medium">
+        <nav className="nav_links hidden gap-8 lg:flex items-center text-[14px] font-medium">
           <a href="#" className="block">
             Search job
           </a>
