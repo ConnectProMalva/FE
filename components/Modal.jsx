@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-const Modal = ({ isOpen, closeModal, title, paragraph, children }) => {
+const Modal = ({ isOpen, closeModal, title, paragraph, children,modalTitleStyle }) => {
   // close the modal when the overlay is clicked
   const handleClickOutside = (e) => {
     if (e.target.classList.contains('modal-overlay')) {
@@ -37,8 +37,8 @@ const Modal = ({ isOpen, closeModal, title, paragraph, children }) => {
             X
           </Link>
           <div className='modal-header flex flex-col text-center pb-4 w-full'>
-            <h3 className='font-bold text-[25px]'>{title}</h3>
-            <p className='text-base font-normal text-textColor'>{paragraph}</p>
+            <h3 className={`font-bold text-[25px] ${modalTitleStyle}`}>{title}</h3>
+            <p className={`text-base font-normal text-textColor ${modalTitleStyle}`}>{paragraph}</p>
           </div>
           <div className='modal-body'>
             {children}

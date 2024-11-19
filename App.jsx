@@ -5,7 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-// import SignUp from "./Pages/SignupPage/SignUp";
+import SignUp from "./Pages/SignupPage/Signup";
 import LandingPage from "./Pages/LandingPage/LandingPage";
 import EmailVerification from "./Pages/EmailVerificationPage/EmailVerification";
 import Login from "./Pages/LoginPage/Login";
@@ -43,10 +43,10 @@ const router = createBrowserRouter([
     element: <LandingPage/>,
   },
 
-  // {
-  //   path: "/SignUp",
-  //   element: <SignUp/>,
-  // },
+  {
+    path: "/SignUp",
+    element: <SignUp/>,
+  },
 
   {
     path: "/EmailVerification",
