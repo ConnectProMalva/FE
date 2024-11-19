@@ -54,8 +54,8 @@ const SignupForm = () => {
                         }`}
                     >
                         <div>
-                            <h6 className="font-[700] text-[20px] text-[#000000]">{check.title}</h6>
-                            <p className="font-normal text-[#423359] text-base">{check.subTitle}</p>
+                            <h6 className="font-[700] md:text-[20px] text-[18px] text-[#000000]">{check.title}</h6>
+                            <p className="font-normal text-[#423359] md:text-base text-[14px]">{check.subTitle}</p>
                         </div>
                         <input
                             type="checkbox"

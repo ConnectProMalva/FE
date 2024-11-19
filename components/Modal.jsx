@@ -37,8 +37,8 @@ const Modal = ({ isOpen, closeModal, title, paragraph, children,modalTitleStyle 
             X
           </Link>
           <div className='modal-header flex flex-col text-center pb-4 w-full'>
-            <h3 className={`font-bold text-[25px] ${modalTitleStyle}`}>{title}</h3>
-            <p className={`text-base font-normal text-textColor ${modalTitleStyle}`}>{paragraph}</p>
+            <h3 className={`font-bold md:text-[25px] text-[20px] ${modalTitleStyle}`}>{title}</h3>
+            <p className={`md:text-base font-normal text-textColor text-[14px] ${modalTitleStyle}`}>{paragraph}</p>
           </div>
           <div className='modal-body'>
             {children}

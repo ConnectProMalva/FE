@@ -15,7 +15,7 @@ const Signup = () => {
     }, []);
 
     return (
-        <div className="login-page">
+        <div>
             <LandingPage />
             <Modal
                 isOpen={isModalOpen}
